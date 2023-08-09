@@ -4271,6 +4271,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Dominio": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Persistencia": "1.0.0"
         },
         "compile": {
@@ -12404,19 +12405,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "/home/apolm01-032/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "/home/apolm01-032/Desktop/dynamicTeam/WebApi/WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\WebApi\\obj\\",
+      "projectPath": "/home/apolm01-032/Desktop/dynamicTeam/WebApi/WebApi.csproj",
+      "packagesPath": "/home/apolm01-032/.nuget/packages/",
+      "outputPath": "/home/apolm01-032/Desktop/dynamicTeam/WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/apolm01-032/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -12428,8 +12429,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Aplicacion\\Aplicacion.csproj"
+            "/home/apolm01-032/Desktop/dynamicTeam/Aplicacion/Aplicacion.csproj": {
+              "projectPath": "/home/apolm01-032/Desktop/dynamicTeam/Aplicacion/Aplicacion.csproj"
             }
           }
         }
@@ -12494,7 +12495,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }

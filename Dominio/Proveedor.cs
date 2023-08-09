@@ -3,6 +3,7 @@ namespace Dominio;
 
 public class Proveedor : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     public string ? Nit_proveedor { get; set; }
     public string ? Email_contacto  { get; set; }
     public string ? Estado { get; set; }

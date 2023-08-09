@@ -3,6 +3,7 @@ namespace Dominio;
 
 public class Empresa_taller : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     public string ? Nit_empresa { get; set; }
     public string ? Direccion { get; set; }
     public string ? Email { get; set; }

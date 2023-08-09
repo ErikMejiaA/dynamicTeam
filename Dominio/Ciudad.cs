@@ -3,6 +3,7 @@ namespace Dominio;
 
 public class Ciudad : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     //llave foranea
     public string ? Id_region { get; set; }
 

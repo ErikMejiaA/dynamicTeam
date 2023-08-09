@@ -5274,19 +5274,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "/home/apolm01-032/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "/home/apolm01-032/Desktop/dynamicTeam/Persistencia/Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Persistencia\\obj\\",
+      "projectPath": "/home/apolm01-032/Desktop/dynamicTeam/Persistencia/Persistencia.csproj",
+      "packagesPath": "/home/apolm01-032/.nuget/packages/",
+      "outputPath": "/home/apolm01-032/Desktop/dynamicTeam/Persistencia/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/apolm01-032/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5298,8 +5298,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Dominio\\Dominio.csproj"
+            "/home/apolm01-032/Desktop/dynamicTeam/Dominio/Dominio.csproj": {
+              "projectPath": "/home/apolm01-032/Desktop/dynamicTeam/Dominio/Dominio.csproj"
             }
           }
         }
@@ -5349,7 +5349,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }

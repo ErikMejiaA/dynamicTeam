@@ -3,6 +3,7 @@ namespace Dominio;
 
 public class Region : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     //Llave foranea
     public string ? Id_pais { get; set; }    
 

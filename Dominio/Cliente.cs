@@ -3,6 +3,7 @@ namespace Dominio;
 
 public class Cliente : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     public string ? Genero { get; set; }
     public string ? Direccion { get; set; }
     public string ? Documento { get; set; }

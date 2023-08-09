@@ -3,6 +3,7 @@ namespace Dominio;
 
 public class Empleado : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     public string ? Genero { get; set; }
     public string ? Direccion { get; set; }
     public string ? Area_trabajo { get; set; }
@@ -26,9 +27,9 @@ public class Empleado : BaseEntityA
     public Tipo_empleado ? Tipo_empleado { get; set; }
 
     //definimos la ICollection<>
-    public ICollection<Inspeccion_vehiculo> ? Inspecciones_Vehiculos { get; set; }
-    public ICollection<Telefono_movil> ? Telefonos_Moviles { get; set; }
-    public ICollection<Personal_responsable> ? Personal_Responsables { get; set; }
+    public ICollection<Inspeccion_vehiculo> ? Inspecciones_vehiculos { get; set; }
+    public ICollection<TelefonoMovil> ? TelefonosMoviles { get; set; }
+    public ICollection<Personal_responsable> ? Personal_responsables { get; set; }
     
         
 }

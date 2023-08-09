@@ -4,6 +4,7 @@ namespace Dominio;
 
 public class Sucursal : BaseEntityA
 {
+    public string ? Nombre { get; set; }
     public string ? Nit_sucursal { get; set; }
     public string ? Estado { get; set; }
     public string ? Encargado { get; set; }
@@ -23,7 +24,7 @@ public class Sucursal : BaseEntityA
     public ICollection<Empleado> ? Empleados { get; set; }
     public ICollection<Proveedor> ? Proveedores { get; set; }
     public ICollection<Cliente> ? Clientes { get; set; }
-    public ICollection<Producto_sucursal> ? Productos_Sucursales { get; set; }
+    public ICollection<Producto_sucursal> ? Productos_sucursales { get; set; }
     
         
 }
