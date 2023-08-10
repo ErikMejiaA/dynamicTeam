@@ -1,11 +1,11 @@
 
 namespace Dominio;
 
-public class Ciudad : BaseEntityA
+public class Ciudad : BaseEntityB
 {
     public string ? Nombre { get; set; }
     //llave foranea
-    public string ? Id_region { get; set; }
+    public int ? Id_region { get; set; }
 
     //definimos la referencia 
     public Region ? Region { get; set; }

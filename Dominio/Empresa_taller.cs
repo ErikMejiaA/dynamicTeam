@@ -1,7 +1,7 @@
 
 namespace Dominio;
 
-public class Empresa_taller : BaseEntityA
+public class Empresa_taller : BaseEntityB
 {
     public string ? Nombre { get; set; }
     public string ? Nit_empresa { get; set; }

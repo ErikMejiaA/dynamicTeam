@@ -2,7 +2,7 @@
 
 namespace Dominio;
 
-public class Sucursal : BaseEntityA
+public class Sucursal : BaseEntityB
 {
     public string ? Nombre { get; set; }
     public string ? Nit_sucursal { get; set; }
@@ -13,8 +13,8 @@ public class Sucursal : BaseEntityA
     public string ? Telefono { get; set; }
 
     //llaves foraneas 
-    public string ? Id_empresa { get; set; }
-    public string ? Id_ciudad { get; set; }
+    public int ? Id_empresa { get; set; }
+    public int ? Id_ciudad { get; set; }
 
     //definimos la referencias 
     public Empresa_taller ? Empresa_Taller { get; set; }

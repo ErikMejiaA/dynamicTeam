@@ -12,7 +12,7 @@ public class Cliente : BaseEntityA
     public string ? Estado { get; set; }
 
     //llave foranea 
-    public string ? Id_sucursal { get; set; } 
+    public int ? Id_sucursal { get; set; } 
 
     //definimoa la referencia 
     public Sucursal ? Sucursal { get; set; }

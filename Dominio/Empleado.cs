@@ -13,7 +13,7 @@ public class Empleado : BaseEntityA
 
     //llaves foraneas 
     public int Id_tipo_sangre { get; set; }
-    public string ? Id_sucursal { get; set; }
+    public int ? Id_sucursal { get; set; }
     public int Id_tipo_especialidad { get; set; }
     public int Id_eps { get; set; }
     public int Id_arl { get; set; }
@@ -25,6 +25,7 @@ public class Empleado : BaseEntityA
     public Eps ? Eps { get; set; }
     public Arl ? Arl { get; set; }
     public Tipo_empleado ? Tipo_empleado { get; set; }
+    public Sucursal ? Sucursal { get; set; }
 
     //definimos la ICollection<>
     public ICollection<Inspeccion_vehiculo> ? Inspecciones_vehiculos { get; set; }

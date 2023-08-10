@@ -16,6 +16,6 @@ public class Producto_sucursal : BaseEntityB
     //definimos la referencia 
     public Producto ? Producto { get; set; }
     public Sucursal ? Sucursal { get; set; }
-    public Respuesto_cambiar ? Respuesto_cambiar { get; set; }
+    public Repuesto_cambiar ? Repuesto_cambiar { get; set; }
     
 }

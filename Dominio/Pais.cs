@@ -1,7 +1,7 @@
 
 namespace Dominio;
 
-public class Pais : BaseEntityA
+public class Pais : BaseEntityB
 {
     public string ? Nombre { get; set; }
     //definimos la IC   ollection     
