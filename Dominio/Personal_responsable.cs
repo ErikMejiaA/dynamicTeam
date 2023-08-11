@@ -3,12 +3,12 @@ namespace Dominio;
 
 public class Personal_responsable : BaseEntityB
 {
+    public string ? Tiempo_reparacion { get; set; }
+    public string ? Diagnostico_taller { get; set; }
+
     //llaves foraneas 
     public string ? Id_empleado { get; set; }
     public int Id_ingresoTaller { get; set; }
-
-    public string ? Tiempo_reparacion { get; set; }
-    public string ? Diagnostico_taller { get; set; }
 
     //definimos la referencia 
     public Empleado ? Empleado { get; set; }

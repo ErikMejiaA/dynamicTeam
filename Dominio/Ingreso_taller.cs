@@ -11,7 +11,7 @@ public class Ingreso_taller : BaseEntityB
 
     //definimos la referencia 
     public Vehiculo ? Vehiculo { get; set; }
-    public Servicio_especializado ? Servicios_especilizados { get; set; }
+    public Servicio_especializado ? Servicio_especilizado { get; set; }
     public Orden_reparacion ? Orden_reparacion { get; set; }
 
     //definimos la ICollection<>

@@ -3,9 +3,6 @@ namespace Dominio;
 
 public class Inspeccion_vehiculo : BaseEntityB
 {
-    //llaves foraneas
-    public int Id_ingresoTaller { get; set; }
-    public string ? Id_empleado { get; set; }
     public string ? Puerta_F_izquierda { get; set; }
     public string ? Puerta_F_derecha { get; set; }
     public string ? Puerta_T_izquierda { get; set; }
@@ -25,6 +22,10 @@ public class Inspeccion_vehiculo : BaseEntityB
     public string ? Rueda_T_derecha { get; set; }
     public string ? Otros { get; set; }
     public string ? Diagnostico_cliente { get; set; }
+
+    //llaves foraneas
+    public int Id_ingresoTaller { get; set; }
+    public string ? Id_empleado { get; set; }
 
     //definimos la referencia 
     public Ingreso_taller ? Ingreso_taller { get; set; }
