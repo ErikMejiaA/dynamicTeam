@@ -10,7 +10,7 @@ public class Proveedor : BaseEntityA
     public string ? Forma_pago { get; set; }
 
     //llave foranea 
-    public string ? Id_sucursal { get; set; }
+    public int ? Id_sucursal { get; set; }
 
     //definimos las ICollection<>
     public ICollection<Producto_proveedor> ? Productos_proveedores { get; set; }

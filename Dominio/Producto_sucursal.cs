@@ -11,7 +11,7 @@ public class Producto_sucursal : BaseEntityB
 
     //llaves foraneas
     public string ? Id_producto { get; set; }
-    public string ? Id_sucursal { get; set; }
+    public int ? Id_sucursal { get; set; }
 
     //definimos la referencia 
     public Producto ? Producto { get; set; }

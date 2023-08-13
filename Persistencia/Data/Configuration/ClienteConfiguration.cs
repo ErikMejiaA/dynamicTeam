@@ -15,6 +15,9 @@ public class ClienteConfiguration : IEntityTypeConfiguration<Cliente>
         .HasMaxLength(10)
         .IsRequired();
 
+        builder.HasIndex(p => p.IdCodigo)
+        .IsUnique();
+
         builder.Property(p => p.Nombre)
         .HasMaxLength(150)
         .IsRequired();

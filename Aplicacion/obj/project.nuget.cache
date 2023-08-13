@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aqqi2VAcmtzHX+yg6MN4jCT5j+FRjmpxzoMFkXptvppEXLZbDoZhsDx90fUCmsH3KujkkPdXGIXI5yYAGwr7wA==",
+  "dgSpecHash": "GpxhCHatobOpD7BIPr+ULDJsOJZ3aTEp8JFGep4X4kRarHqlDfWV7Ty0vzX73de8IpD2RJ17z+y7I6hO2w28SA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Usuario\\Desktop\\dynamicTeam\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\dynamicTeam\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
