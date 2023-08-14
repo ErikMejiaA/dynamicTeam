@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 namespace Dominio.Interfaces;
 
-public interface IGenericInterfacB<T> where T : BaseEntityB
+public interface IGenericInterfaceB<T> where T : BaseEntityB
 {
     Task<T> GetByIdAsync(int id);
     Task<IEnumerable<T>> GetAllAsync();
